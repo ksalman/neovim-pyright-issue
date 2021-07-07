@@ -9,3 +9,6 @@ docker build -t nvim .
 docker run -it --rm nvim /bin/bash
 cd ~/mytest/
 ```
+
+# Update
+The issue is that the code is in the same directory as virtual environemnt. Pyright treats virtual environment directory as read-only.
