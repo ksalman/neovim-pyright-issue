@@ -1,1 +1,11 @@
 Minimal config to show that `vim.lsp.buf.rename()` stops working if `pyvenv.cfg` exists in the same directory.
+
+## Build docker image
+```
+docker build -t nvim .
+```
+## Run
+```
+docker run -it --rm nvim /bin/bash
+cd ~/mytest/
+```
