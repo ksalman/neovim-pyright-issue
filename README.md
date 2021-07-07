@@ -1,4 +1,4 @@
-Minimal config to show that `vim.lsp.buf.rename()` stops working if `pyvenv.cfg` exists in the same directory.
+Minimal config to show that `vim.lsp.buf.rename()` stops working in a virtual environment (if `pyvenv.cfg` exists in the same directory.)
 
 ## Build docker image
 ```
