@@ -19,7 +19,7 @@ RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
 RUN apt-get install nodejs \
     && rm -fr /var/lib/apt/lists/*
 # pyright
-RUN npm install -g pyright
+RUN npm install -g pyright@1.1.155
 # Install plugins
 RUN mkdir ~/.config/nvim
 COPY init.vim /root/.config/nvim/init.vim
